@@ -1,6 +1,6 @@
 
 function sendMessage() {
- /* var nameInput = document.querySelector('input[type="text"][name="name"]');
+  var nameInput = document.querySelector('input[type="text"][name="name"]');
   var inputEmail = document.querySelector('input[type="email"][name="email"]');
   var phoneInput = document.getElementById('phone');
   var messageInput = document.querySelector('textarea[name="message"]');
@@ -48,6 +48,5 @@ function sendMessage() {
         button: "OK",
       });
       console.log(error);
-    });*/
+    });
 }
-
