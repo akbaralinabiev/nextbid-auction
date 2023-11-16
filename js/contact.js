@@ -12,9 +12,9 @@ function sendMessage() {
     
   
     var token = 'your token';
-    var text = Name: ${name}%0A%0AEmail: ${email}%0A%0APhone number: ${phone}%0A%0ASubject: ${document.querySelector('input[type="text"][name="subject"]').value}%0A%0AMessage: ${message};
+    var text = `Name: ${name}%0A%0AEmail: ${email}%0A%0APhone number: ${phone}%0A%0ASubject: ${document.querySelector('input[type="text"][name="subject"]').value}%0A%0AMessage: ${message}`;
   
-    var url = https://api.telegram.org/bot${token}/sendMessage;
+    var url = 'https://api.telegram.org/bot${token}/sendMessage';
   
     var text = "Name: " + name + "\n\n" +
              "Email: " + email + "\n\n" +
